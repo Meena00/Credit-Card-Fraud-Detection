@@ -232,16 +232,13 @@ This project demonstrates how machine learning models can be improved through **
 credit-card-fraud-analysis/
 │
 ├── README.md
-├── notebooks/
-│ fraud_detection_analysis.ipynb
 │
 ├── data/
 │ dataset_description.md
 │
 ├── visuals/
-│ transaction_distribution.png
 │ clustering_results.png
-│ confusion_matrix.png
+│ cost_optimization_curve.png
 │
 └── proposal/
 project_proposal.pdf
