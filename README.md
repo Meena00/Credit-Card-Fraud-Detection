@@ -58,7 +58,7 @@ https://www.kaggle.com/datasets/ealaxi/paysim1
 
 ### K-Means Clustering of Transaction Patterns
 
-![K-Means Clustering of Transaction Patterns](visuals/Clustering%20graph.png)
+![K-Means Clustering of Transaction Patterns](visuals/Clustering-results.png)
 
 This visualization shows the results of applying **K-Means clustering (K=3)** on the credit card transaction dataset using PCA-reduced features.
 
