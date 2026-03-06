@@ -54,6 +54,41 @@ Dataset Source:
 https://www.kaggle.com/datasets/ealaxi/paysim1
 
 ---
+## Key Visualizations
+
+### K-Means Clustering of Transaction Patterns
+
+![K-Means Clustering of Transaction Patterns](visuals/Clustering%20graph.png)
+
+This visualization shows the results of applying **K-Means clustering (K=3)** on the credit card transaction dataset using PCA-reduced features.
+
+Key observations:
+
+- **Cluster 0** represents lower-value, high-frequency transactions.
+- **Cluster 1** contains moderate and routine spending behaviors.
+- **Cluster 2** highlights anomalous or high-value transactions, which contain a higher proportion of fraudulent cases.
+
+The clustering helps reveal **behavioral groupings in anonymized transaction data**, allowing the model to detect unusual patterns that may indicate fraudulent activity.
+
+---
+
+### Fraud Detection Cost Optimization Curve
+
+![Fraud Detection Cost Optimization Curve](visuals/Cost%20Optimization%20Curve%20.png)
+
+This graph illustrates the relationship between **fraud detection thresholds and total operational cost**.
+
+The total cost is modeled as:
+```
+Total Cost = (Fraud Loss × Missed Fraud) + (User Cost × False Positive)
+```
+Key insights:
+
+- **Lower thresholds** increase false alarms, raising user inconvenience costs.
+- **Higher thresholds** miss more fraudulent transactions, increasing fraud losses.
+- The optimal threshold is approximately **0.67**, where the **total cost is minimized**.
+
+This cost-sensitive evaluation demonstrates how model tuning can **balance fraud detection accuracy with financial impact**.
 
 # Dataset Comparison
 
